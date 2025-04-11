@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Cao Cấp và Điều Khiển</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Phần TV -->
+        <div class="tv">
+            <div class="screen" id="tvScreen">
+                <video id="tvVideo" autoplay>
+                    <source id="videoSource" src="" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+                <div class="screen-content" id="screenContent">TV Đang Tắt</div>
+            </div>
+            <div class="tv-stand"></div>
+            <div class="power-led" id="powerLed"></div>
+        </div>
+
+        <!-- Phần Điều Khiển -->
+        <div class="remote">
+            <button class="btn power" onclick="togglePower()">Bật/Tắt</button>
+            <button class="btn prev" onclick="prevVideo()">Trước</button>
+            <button class="btn play-pause" onclick="togglePlayPause()">Dừng/Tiếp tục</button>
+            <button class="btn next" onclick="nextVideo()">Sau</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
