@@ -11,8 +11,8 @@ const powerLed = document.getElementById('powerLed');
 const videos = [
     "video/sieunhan.mp4",
     "video/chou.mp4",
-    "video/jack.mp4",
     "video/jack2.mp4",
+    "video/jack.mp4",
     "video/jack3.mp4",
     "video/vdom.mp4",
     "video/nhac.mp4"
